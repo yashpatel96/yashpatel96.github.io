@@ -25,6 +25,39 @@
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <style>
+       		#cntr_logo {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;}
+
+  			ul {
+  				text-align: center;
+  				list-style: inside;
+  			}
+
+  			#Opacity_Change, #Opacity_Change2, #Opacity_Change3, #Mob_Change, #Mob_Change2, #Mob_Change3 {
+  				opacity: 0.8;
+  			}
+
+  			#Mob_Change, #Mob_Change2, #Mob_Change3{
+  				display: none;
+  			}
+
+  			@media (max-width: 700 px)
+  			{
+  				#Opacity_Change, #Opacity_Change2, #Opacity_Change3{
+  					display: none;
+  					}
+  				#Mob_Change, #Mob_Change2, #Mob_Change3{
+  					display: block;
+  				}
+
+  			}
+
+        </style>
+
     </head>
     <body>
 
@@ -96,14 +129,14 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href=""><img class="logo" src="images/logo.png" alt="" style=""></a>
-                         <h2 style="color:white;font-style:normal; ">Shree Gayatri Enterprise</h2>
+                         <h2 style="color:white;font-style:normal;" align="center">Shree Gayatri Enterprise</h2>
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
                             <li><a href="#">Home</a></li>                    
                             <li><a href="#about">About Us</a></li>
-                            <li><a href="#services">Services</a></li>
+                            <li><a href="#services">Services & Products</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contact_form">Contact Us</a></li>
                         </ul>
@@ -119,10 +152,11 @@
                 <!-- Carousel-inner -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="images/slider_img.jpg" alt="Construction">
+                        <img src="images/slider_img.jpg" alt="Construction", id="Opacity_Change">
+                        <img src="images/mob_img1.jpg" alt="Construction", id="Mob_Change">                        
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
+                                <h3>We are Certified Engineers.</h3>
                                 <h1>Industrial Services</h1>
                                 <h1 class="second_heading">Creative & Professional</h1>
                                 <p>The journey of our company started with the establishment of Shree Gayatri Enterprise in the year 1995 in Ahmedabad city of Gujarat in India. Shri Dilip Patel is the founder of Shree Gayatri Enterprise having more than 25 years of experience in the gear and precision machined parts manufacturing industry.</p>
@@ -132,10 +166,11 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/slider_img2.jpg" alt="Construction">
+                        <img src="images/slider_img2.jpg" alt="Construction" id="Opacity_Change2" >
+                        <img src="images/mob_img2.jpg" alt="Construction" id="Mob_Change2" >
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
+                                <h3>We are Certified Engineers.</h3>
                                 <h1>Industial Services</h1>
                                 <h1 class="second_heading">Creative & Professional</h1>
                                 <p>The highly qualified and experienced team of Shree Gayatri Enterprise guarantees top of the line quality and most importantly, on-time deliveries. Our underlying business policyis to invariably put the interest of the customer first. This policy always goes a long way in establishing strong brand loyalty.</p>
@@ -145,10 +180,11 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/slider_img3.png" alt="Construction">
+                        <img src="images/slider_img3.jpg" alt="Construction" id="Opacity_Change3">
+                        <img src="images/mob_img3.jpg" alt="Construction" id="Mob_Change3" >
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
+                                <h3>We are Certified Engineers.</h3>
                                 <h1>Industial Services</h1>
                                 <h1 class="second_heading">Creative & Professional</h1>
                                 <p>The plant is equipped with Hi-Tech Machine Shops. No matter how large the order size, no matter how complicated the design, Shree Gayatri Enterprise can meet with the demands of its valued customers.</p>
@@ -181,12 +217,16 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
-                            <h2>Welcome to Our Company</h2>
-                            <h3>Shree Gayatri Enterprise</h3>
+                            <h2 align="center">Welcome to Our Company</h2>
+                            <h3 align="center">Shree Gayatri Enterprise</h3>
                             <p>Since 1995, starting in a small space, Shree Gayatri Enterprise has been committed to quality work, excellent service, and quick turnaround time with competitive prices.</p>
                             <p>Today we serve customers across India from our state-of-the-art facility equipped with Hi-Tech machines, yet we remain a small business with the same goals we had at the beginning: to provide our customers with incomparable service and to stand behind everything we make.</p>
 
-                            <p>Shree Gayatri Enterprisemanufactures Custom Profile Gears,Spur Gears, Rack & Pinion Gears, Spline Spur Gears, Planetary Spur Gears, Gear Sprockets, Differential Spur Gears and many more precision machined components. Our staff takes pride in the quality of our extensive product line which includes precision machined components.Using the latest manufacturing and inspection techniques we provide a complete one-stop, economical solution for all your gearing and precision machining needs.We can manufacture gears from 10 mm outside diameter all the way to 500 mm outside diameter. If you don't need complete parts, we can also provide cut teeth only operations.</p>
+                            <p>Over the years, Shree Gayatri Enterprise has assembled an incredible experience and knowledgeable staff. These individuals give Shree Gayatri Enterprise a technical and competitive edge.</p>
+
+                            <p>Our experience helps us contribute to each customer’s success. By working right alongside our customers, our company provides that extra personal experience and expertise that sets us apart from our competitors. We are always looking for ways to improve our work and customer service. We have done our best to grow and improve for more than 25 years, and we look forward to doing it for another 25 years!</p>
+
+                            <p>Shree Gayatri Enterprise manufactures Custom Profile Gears, Spur Gears, Racks & Pinions, Planetary Spur Gears, Gear Sprockets, Differential Spur Gears, Spline Gears, and many more precision machined components. Our staff takes pride in the quality of our extensive product line. Using the latest manufacturing and inspection techniques we provide a complete one-stop, economical solution for all your gearing and precision machining needs. We can manufacture gears from 10 mm outside diameter all the way to 500 mm outside diameter. If you don't need complete parts, we can also provide cut teeth (inside and outside) only operations.</p>
                             
                     
                             <!-- <a  class="btn know_btn">know more</a> -->
@@ -218,21 +258,21 @@
                         <div class="why_us_item" >
                             <span class="fa fa-leaf"></span>
                             <h4>Consistent Quality</h4>
-                            <p>Our reputation for exceeding the highest quality standards in precision parts machining is precisely why our customers choose us and choose to stay with us. Our first customer is still our customer almost two decades later because of the quality they get part after part and year after year.</p>
+                            <p align="justify">Our reputation for exceeding the highest quality standards in precision parts machining is precisely why our customers choose us and choose to stay with us. Our first customer is still our customer almost two decades later because of the quality they get part after part and year after year.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-futbol-o"></span>
                             <h4>Always on time</h4>
-                            <p>We always deliver our products and services on time to our valued customers so that they can accomplish their goals by using our product effectively and efficiently. Delivering products on time and efficiently is not always easy, but if done properly, it can help a business stand out from the competition.</p>
+                            <p align="justify">We always deliver our products and services on time to our valued customers so that they can accomplish their goals by using our product effectively and efficiently. Delivering products on time and efficiently is not always easy, but if done properly, it can help a business stand out from the competition.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-group"></span>
                             <h4>Customer Service</h4>
-                            <p>We provide our customers with unbeatable service while providing top quality products at competitive prices. We strive to abide by the Golden Rule. By treating people the way we want to be treated, our customers have come to trust the work we do. We work alongside our customersto meet their unique demands.
+                            <p align="justify">We provide our customers with unbeatable service while providing top quality products at competitive prices. By treating people the way we want to be treated, our customers have come to trust the work we do. We work alongside our customers to meet their unique demands.
 </p>
                         </div>
                     </div>
@@ -240,7 +280,7 @@
                         <div class="why_us_item">
                             <span class="fa fa-line-chart"></span>
                             <h4>Industry Expertise</h4>
-                            <p>By working with so many successful customers, our company has acquired knowledge and expertise in many areas. We put that knowledge and the requirement of our customers into the manufacturing and are able to provide valuable business knowledge as an overall service.
+                            <p align="justify">By working with so many successful customers, our company has acquired knowledge and expertise in many areas. We put that knowledge and the requirement of our customers into the manufacturing and are able to provide valuable business knowledge as an overall service.
 </p>
                         </div>
                     </div>
@@ -252,76 +292,83 @@
         <section id="services">
             <div class="container">
                 <h2>OUR SERVICES & PRODUCTS</h2>
-                <p>Shree Gayatri Enterprise takes pride in offering a full range of products from standard spur gears to gears designed for custom or unique applications. Shree Gayatri Enterprise has the capability to manufacture gears up to 500 mm in outside diameter, with a number of teeth ranging from 6 to 300 and a maximum width of 130 mm. Metric gear sizes from 0.3 to 8.0 module.The pressure angle can be changed based on the requirement including 20°, 14.5°, and many more.</p>
+                <p align="justify">Shree Gayatri Enterprise takes pride in offering a full range of products from standard spur gears to gears designed for custom or unique applications. Shree Gayatri Enterprise has the capability to manufacture gears up to 500 mm in outside diameter, with a number of teeth ranging from 6 to 300, a maximum width of 140 mm, and metric gear sizes from 0.3 to 8.0 module. The pressure angle can be applied based on the requirement including 20°, 14.5°, and many more.</p>
                 
-                <p>Shree Gayatri Enterprise is a leading manufacturer of precision gears for all applications. We provide precision gears in standard and custom inch-measure sizes and a variety of configurations. Shree Gayatri Enterprisemanufactures custom spur gears based on your 2D drawings, 3D models, or old, worn-out parts or samples. We will manufacture them out of the material You specify or we will take your sample gear and have it tested to determine the material and hardness. Either way, you will receive a custom gear manufactured to your custom needs.</p>
+                <p align="justify">Shree Gayatri Enterprise is a leading manufacturer of precision gears for all applications. We provide precision gears in standard and custom inch-measure sizes and a variety of configurations. Shree Gayatri Enterprise manufactures custom spur gears based on your 2D drawings, 3D models, or old, worn-out parts or samples. We will manufacture them out of the material YOU specify or we will take your sample gear and have it tested to determine the material and hardness. Either way, you will receive a custom gear manufactured to your custom needs.</p>
+
+                <br>
                 
-                <h3>Product Information</h3>
-                <p>Gear applications are quite diverse and highly customizable; they appear anywhere that an application requires speed reduction, speed increase, power transmission, motion transmission, or force reduction.</p>
+                <h3 align="center">Product Information</h3>
+                <p align="justify">Gear applications are quite diverse and highly customizable; they appear anywhere that an application requires speed reduction, speed increase, power transmission, motion transmission, or force reduction.</p>
                 
-                <p>Most often, industrial gear applications appear in industries including automotive, aviation, railway, transportation, and food production. They can be found in cars and trucks, gear motors, bicycles, motorcycles, airplanes, belt pulley systems, and more.</p>
+                <p align="justify">Most often, industrial gear applications appear in industries including automotive, aviation, railway, transportation, and food production. They can be found in cars and trucks, gear motors, bicycles, motorcycles, airplanes, belt pulley systems, and more.</p>
 
-               <h3>What is a gear?</h3>
-                <p>A gear is a rotating machine part that utilizes cut teeth, or cogs, to mesh with another toothed part—usually another gear or a linear toothed part (called a gear rack)—to transmit rotational motion and torque. By using a combination of precision gears with the correct ratio, the speed, torque, and even direction of a power source can be changed. Two or more gears working together called a gear train or a transmission will almost always create a change in torque. If one gear is larger than the other, a mechanical advantage is produced; the rotational speed and torque of the respective gears differ in proportion to their diameters.</p>
+                <br>
 
-                <p>Gears are mechanical devices that transfer torque and motion or set the mechanical motion in action through the engagement of other gears, a shaft, or a series of parts. Gears interlock with one another and turn together with the help of evenly cut teeth. Teeth allow different sized and shaped gears to interlock with one another.</p>
-                <p>Materials handling, food processing, textile manufacturing, clock making, heavy industrial mining equipment, and oil rigging equipment depend on gears for the transmission of motion as well. Compared to gears applied in commercial and consumer product contexts, industrial gears are usually characterized by heavy-duty construction and durable metal composition.</p>
+               <h3 align="center">What is a gear?</h3>
+                <p align="justify">A gear is a rotating machine part that utilizes cut teeth, or cogs, to mesh with another toothed part—usually another gear or a linear toothed part (called a gear rack)—to transmit rotational motion and torque. By using a combination of precision gears with the correct ratio, the speed, torque, and even direction of a power source can be changed. Two or more gears working together called a gear train or a transmission will almost always create a change in torque. If one gear is larger than the other, a mechanical advantage is produced; the rotational speed and torque of the respective gears differ in proportion to their diameters.</p>
 
+                <p align="justify">Materials handling, food processing, textile manufacturing, clock making, heavy industrial mining equipment, and oil rigging equipment depend on gears for the transmission of motion as well. Compared to gears applied in commercial and consumer product contexts, industrial gears are usually characterized by heavy-duty construction and durable metal composition.</p>
 
-              <h3>Our Product Categories include</h3>
+                <br>
+
+              <h3 align="center">Our Product Categories include:</h3>
+              <br>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item" >
                         
                           <img src="images/service_img1.jpg" alt="Our Services"/>
                         
-                            <a class="fancybox" href="images/service_img1.jpg"data-fancybox-group="service_item" title="Spur Gears"><h4>Spur Gears</h4></a>
-                            <p>Spur gears operate on parallel axes; the axes of spur gears are parallel when they are placed next to each other. When two gears designed to interlock with each other are positioned together, one gear turns and transfers torque to the next gear as a result. </p>
+                            <a class="fancybox" href="images/service_img1.jpg"data-fancybox-group="service_item" title="Spur Gears"><h4 align="center">Spur Gears</h4></a>
+                            <p align="justify">Spur gears operate on parallel axes; the axes of spur gears are parallel when they are placed next to each other. When two gears designed to interlock with each other are positioned together, one gear turns and transfers torque to the next gear as a result. </p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img2.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Racks & Pinions"><h4>Racks & Pinions</h4></a>
-                            <p>Rack and pinion gears feature a rack meshed with a pinion. A rack is a toothed bar or rod with an infinite radius of curvature. When meshed with a pinion, as the pinion turns, the rack moves in a straight line and converts torque to a linear force.</p>
+                            <img src="images/service_img2.jpeg" alt="Our Services" />
+                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Racks & Pinions"><h4 align="center">Racks & Pinions</h4></a>
+                            <p align="justify">Rack and pinion gears feature a rack meshed with a pinion. A rack is a toothed bar or rod with an infinite radius of curvature. When meshed with a pinion, as the pinion turns, the rack moves in a straight line and converts torque to a linear force.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="images/service_img3.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img3.jpg" data-fancybox-group="service_item" title="Planetary Spur Gears"><h4>Planetary Spur Gears</h4></a>
-                            <p>Planetary gears are among the more complicated gear systems. They contain one central spur gear, or "sun gear," surrounded by three or more "planet gears;" the exterior gears interlock with the inward-facing teeth of a larger internal gear, increasing the output speed of the large outer gear through rotational torque applied to the internal sun gear.</p>
+                            <a class="fancybox" href="images/service_img3.jpg" data-fancybox-group="service_item" title="Planetary Spur Gears"><h4 align="center">Planetary Spur Gears</h4></a>
+                            <p align="justify">Planetary gears are among the more complicated gear systems. They contain one central spur gear, or "sun gear," surrounded by three or more "planet gears;" the exterior gears interlock with the inward-facing teeth of a larger internal gear, increasing the output speed of the large outer gear through rotational torque applied to the internal sun gear.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                      <div class="col-md-4">
                         <div class="service_item">
-                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Gear Sprockets"><img src="images/service_img3.jpg" alt="Our Services" />
-                            <h4>Gear Sprockets</h4></a>
-                            <p>Sprockets are profiled wheels with teeth that mesh with a perforated material to create a reliable drive system. They are known for being a dependable drive system for continuous drive applications providing the maximum absorption of shock and minimum torque load.</p>
+                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Gear Sprockets"><img src="images/service_img4.jpg" alt="Our Services" />
+                            <h4 align="center">Gear Sprockets</h4></a>
+                            <p align="justify">Sprockets are profiled wheels with teeth that mesh with a perforated material to create a reliable drive system. They are known for being a dependable drive system for continuous drive applications providing the maximum absorption of shock and minimum torque load.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                      <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img3.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Differential Spur Gears"><h4>Differential Spur Gears</h4></a>
-                            <p>Differential spur gears feature two shafts that can be independently adjusted in angle and direction. Differential spur gears are designed to mesh and work with one another at a controlled speed in order to produce a desired amount of torque.</p>
+                            <img src="images/service_img5.jpg" alt="Our Services" />
+                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Differential Spur Gears"><h4 align="center">Differential Spur Gears</h4></a>
+                            <p align="justify">Differential spur gears feature two shafts that can be independently adjusted in angle and direction. Differential spur gears are designed to mesh and work with one another at a controlled speed in order to produce a desired amount of torque.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                      <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img3.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Spline Gears"><h4>Spline Gears</h4></a>
-                            <p>Spline gears are either cylindrical or rod-shaped with straight teeth that allow them to transmit motion laterally by fitting inside internal devices or gears.</p>
+                            <img src="images/service_img6.jpg" alt="Our Services" />
+                            <a class="fancybox" href="images/service_img2.jpg" data-fancybox-group="service_item" title="Spline Gears"><h4 align="center">Spline Gears</h4></a>
+                            <p align="justify">Spline gears are either cylindrical or rod-shaped with straight teeth that allow them to transmit motion laterally by fitting inside internal devices or gears.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
 
                 </div>
+
+                <br>
 
                 <h3>Manufacturing Materials</h3>
                 <p>Our company can manufacture gears in any type of material including Steel, Stainless Steel, Cast Iron, Brass or Bronze, Aluminum, and many more.</p>
@@ -340,7 +387,7 @@
         <section id="portfolio">
             <div class="container portfolio_area text-center">
                 <h2>Made with love</h2>
-                <p>Improving product quality is one of the most important things for achieving long term sales growth and profitability. According to the World Quality Report, the first year in which software testing companies focused mainly on achieving end-user satisfaction. And though increasing quality of products is not an easy task, it rewards businesses with increased revenue and reduced costs.</p>
+                <p>Improving product quality is one of the most important things for achieving long term sales growth and profitability. Although increasing the quality of products is not an easy task, it rewards businesses with increased revenue and reduced costs. Shree Gayatri Enterprise ensures the quality of its products with competitive prices and delivers them on time.</p>
 
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
@@ -432,7 +479,7 @@
         <!-- Testimonial -->
         <section id="testimonial">
             <div class="container text-center testimonial_area">
-                <h2>Currently Provided Services In</h2>
+                <h2>Currently Providing Services In</h2>
                 <p></p>
 
                 <div class="row">
@@ -440,9 +487,9 @@
                         <div class="testimonial_item">
                             <div class="testimonial_content text-left">
                                 <p><h3>Rakesh Patel</h3></p>
-                                <p>Mfg Of : C.N.C.,V.M.C. Parts & All Type Shaft & Job Works</p>
-                                <p>Address : Plot No.66, Ambica Ind.Estate, Part-1, Saijpurbogha, Naroda Road, Ahmedabad-382345 </p>
-                                <p>Contact No.: 09879054321</p>
+                                <p>Mfg of : C.N.C., V.M.C. Parts & All Types of Shafts & Job Works</p>
+                                <p>Address : Plot No.66, Ambica Ind. Estate, Part-1, Saijpurbogha, Naroda Road, Ahmedabad - 382345</p>
+                                <p>Contact No. : +91-9879054321</p>
                             </div>
                             <img src="images/testimonial_img1.jpg" alt="Testimonial" />
                             <p class="worker_name">Pioneer Product</p>
@@ -453,8 +500,8 @@
                             <div class="testimonial_content">
                                 <p><h3>Tarang Ranpariya</h3></p>
                                 <p>Engineering & Fabricators</p>
-                                <p>Address :22, Narayan Estate, Plot No. 3P GIDC, Soni ni Chawl, Odhav, Ahmedabad-382415</p>
-                                <p>Contact No. : 9825749900, 9228884827</p>
+                                <p>Address : 22, Narayan Estate, Plot No. 3P GIDC, Soni's Chawl, Odhav, Ahmedabad - 382415</p>
+                                <p>Contact No. : +91-9825749900, +91-9228884827</p>
                             </div>
                             <img src="images/testimonial_img2.jpg" alt="Testimonial" />
                             <p class="worker_name">Patel Manufacture</p>
@@ -465,9 +512,9 @@
                             <div class="testimonial_content">
                                 <p><h3>Kalpesh Patel</h3></p>
                                 <p><h3>Satish Patel</h3></p>
-                                 <p>Mfg of : Reduction Gearbox and helical Gearbox</p>
+                                 <p>Mfg of : Reduction Gearbox & Helical Gearbox</p>
                                 <p>Website : www.yogeshengg.com</p>
-                                <p>Contact No.: 9879034534, 9825335631</p>
+                                <p>Contact No. : +91-9879034534, +91-9825335631</p>
                             </div>
                             <img src="images/testimonial_img3.jpg" alt="Testimonial" />
                             <p class="worker_name">Yogesh Engineering Work</p>
@@ -479,8 +526,8 @@
                         <div class="testimonial_item">
                             <div class="testimonial_content text-left">
                                 <p><h3>Hardik Patel</h3></p>
-                                <p>Mfg of : Printing, Coating, BOPP & Masking  tape Machine</p>
-                                <p>Address : 92, Shyam Ind. Estate,Road No.5, Kathwada G.I.D.C., Ahmedabad </p>
+                                <p>Mfg of : Printing, Coating, BOPP, Masking & Tape Machine</p>
+                                <p>Address : 92, Shyam Ind. Estate, Road No.5, Kathwada G.I.D.C., Ahmedabad</p>
                                 <p>Contact No. : +91-9725930061</p>
 
                             </div>
@@ -494,12 +541,12 @@
                                 <p><h3>Vijay Shekhavat</h3></p>
                                 <p>Mfg of : Gear Pump, Gear Box & Road Constuction Machinery</p>
                                 <p>Address : Chandu Samal's Chawl, Near Dr. Gandhi's Chawl, Chamanpura, Ahmedabad</p>
-                                <p>Contact No. : 91-9824076111</p>
+                                <p>Contact No. : +91-9824076111</p>
                                 <p></p>
 
                             </div>
                             <img src="images/testimonial_img5.jpg" alt="Testimonial" />
-                            <p class="worker_name">Oilpower Hydraulics Pvt.Ltd</p>
+                            <p class="worker_name">Oil & Power Hydraulics Pvt. Ltd.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -507,8 +554,9 @@
                             <div class="testimonial_content">
                                 <p><h3>Nileshbhai Patel</h3></p>
                                 <p>Mfg of : Glatt Machinery</p>
-                                <p>Address : Shed No. 1, Survey No. 531/3/1, GIDC, Odhav, Ahmedabad-382415</p>
-                                <p>Contact No. : +91-79-22877060</p>
+                                <p>Address : Shed No. 1, Survey No. 531/3/1, GIDC, Odhav, Ahmedabad - 382415</p>
+                                <p>Contact No. : +91-7922877060</p>
+                                <br>
                             </div>
                             <img src="images/testimonial_img6.jpg" alt="Testimonial" />
                             <p class="worker_name">Zeal Gear Pvt. Ltd.</p>
@@ -551,9 +599,10 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-7">
                         <div class="footer_item">
-                            <h4>About Company</h4>
-                            <img class="logo" src="images/logo.png" alt="Construction"/> 
-                            <p>We are devotedly engaged in offering a wide range of Industrial Gear Shaper for our prestigious clients.The provided shaper is used for cutting the teeth of internal or external gears. Qualitative grade basic material and progressive technique is used by our dexterous professionals in the manufacturing of this shaper. We provide the shaper in different technical specifications as per the specification of the clients.</p>
+                            <img id="cntr_logo" class="logo" src="images/logo.png" alt="Construction" /> 
+                            <h2 style="color:white;font-style:normal;"  align="center">SHREE GAYATRI ENTERPRISE</h2>
+                            <br>
+                            <p align="justify">We are devotedly engaged in offering a wide range of Industrial Gears to our prestigious clients. Qualitative grade basic material and progressive techniques are used by our dexterous professionals in the manufacturing of these gears. We provide Industrial Gears in different technical specifications as per the requirements of our clients.</p>
 
                             <!-- <ul class="list-inline footer_social_icon">
                                 <li><a href=""><span class="fa fa-facebook"></span></a></li>
@@ -592,9 +641,9 @@
                     </div> -->
                     <div class="col-lg-4 col-sm-7">
                         <div class="footer_item">
-                            <h4>Contact us</h4>
+                            <h4 align="center">Contact Us</h4>
                             <ul class="list-unstyled footer_contact">
-                                <li><a href="https://www.google.com/maps/place/23%C2%B001'29.9%22N+72%C2%B038'24.9%22E/@23.0255991,72.6343342,16.18z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d23.0249779!4d72.6402543"><span class="fa fa-map-marker"></span>11, Narayan Estate, Opp. Shreeram Estate, In CMC Lane, Anup Eng. Lane, Nr. Soni's Chawl, Odhav, Ahmedabad-382415</a></li>
+                                <li><a href="https://www.google.com/maps/place/23%C2%B001'29.9%22N+72%C2%B038'24.9%22E/@23.0255991,72.6343342,16.18z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d23.0249779!4d72.6402543"><span class="fa fa-map-marker"></span>11, Narayan Estate, Opp. Shreeram Estate, In CMC Lane, Anup Eng. Lane, Nr. Soni's Chawl, Odhav, Ahmedabad - 382415</a></li>
                                 <li><a href="mailto:contact@shreegayatrienterprise.in"><span class="fa fa-envelope"></span>contact@shreegayatrienterprise.in</a></li>
                                 <li><span class="fa fa-mobile"></span>+91-94263-72726, +91-93779-43570</br></li>
                             </ul>
@@ -603,7 +652,7 @@
 
                     <div class="col-lg-4 col-sm-7">
                         <div class="footer_item">
-                            <h4>Find us on map</h4>
+                            <h4 align="center">Find Us On Map</h4>
                             <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=23%C2%B001'29.9%22N%2072%C2%B038'24.9%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style></div>
                     </div>
                 </div>
@@ -616,7 +665,7 @@
                     <i class="fa fa-heart"></i>
                     by 
                     <a target="_blank" href="http://wethnk..co">WeThnk</a>  -->
-                    © Copyright 2020. All Rights Reserved
+                    © Copyright 2020. All Rights Reserved.
                 </p>
             </div><!-- Footer bottom end -->
         </footer><!-- Footer end -->
