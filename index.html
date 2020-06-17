@@ -32,6 +32,22 @@
   			margin-right: auto;
   			width: 50%;}
 
+  			#tbl tr:nth-child(odd){
+  				background-color: #f1f1c1;
+  			}
+
+  			table, td, th{
+  				border: 1px solid black;
+  				border-collapse: collapse;
+  			}
+
+  			th, td {
+  				padding: 10px;
+			}
+			table {
+ 				border-spacing: 5px;
+			}
+
   			ul {
   				text-align: center;
   				list-style: inside;
@@ -54,6 +70,13 @@
   					display: block;
   				}
 
+  			}
+
+  			@media (min-width: 990px)
+  			{
+  				#size_mng {
+   					margin-top: 110px;
+				}
   			}
 
         </style>
@@ -220,7 +243,6 @@
                             <h2 align="center">Welcome to Our Company</h2>
                             <h3 align="center">Shree Gayatri Enterprise</h3>
                             <p>Since 1995, starting in a small space, Shree Gayatri Enterprise has been committed to quality work, excellent service, and quick turnaround time with competitive prices.</p>
-                            <p>Today we serve customers across India from our state-of-the-art facility equipped with Hi-Tech machines, yet we remain a small business with the same goals we had at the beginning: to provide our customers with incomparable service and to stand behind everything we make.</p>
 
                             <p>Over the years, Shree Gayatri Enterprise has assembled an incredible experience and knowledgeable staff. These individuals give Shree Gayatri Enterprise a technical and competitive edge.</p>
 
@@ -234,7 +256,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
                         <div class="about_banner">
-                            <img src="images/man.png" alt="" />
+                            <img src="images/man.png" alt="" id= "size_mng" />
                         </div>
                     </div>
                 </div>
@@ -318,25 +340,25 @@
                     <div class="col-md-4">
                         <div class="service_item" >
                         
-                          <img src="images/service_img1.jpg" alt="Our Services"/>
+                          
                         
-                            <a class="fancybox" href="images/service_img1.jpg"data-fancybox-group="service_item" title="Spur Gears"><h4 align="center">Spur Gears</h4></a>
+                            <a class="fancybox" href="images/service_img1.jpg"data-fancybox-group="service_item" title="Spur Gears"><img src="images/service_img1.jpg" alt="Our Services"/><h4 align="center">Spur Gears</h4></a>
                             <p align="justify">Spur gears operate on parallel axes; the axes of spur gears are parallel when they are placed next to each other. When two gears designed to interlock with each other are positioned together, one gear turns and transfers torque to the next gear as a result. </p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img2.jpeg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img2.jpeg" data-fancybox-group="service_item" title="Racks & Pinions"><h4 align="center">Racks & Pinions</h4></a>
+                            
+                            <a class="fancybox" href="images/service_img2.jpeg" data-fancybox-group="service_item" title="Racks & Pinions"><img src="images/service_img2.jpeg" alt="Our Services"/><h4 align="center">Racks & Pinions</h4></a>
                             <p align="justify">Rack and pinion gears feature a rack meshed with a pinion. A rack is a toothed bar or rod with an infinite radius of curvature. When meshed with a pinion, as the pinion turns, the rack moves in a straight line and converts torque to a linear force.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img3.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img3.jpg" data-fancybox-group="service_item" title="Planetary Spur Gears"><h4 align="center">Planetary Spur Gears</h4></a>
+                            
+                            <a class="fancybox" href="images/service_img3.jpg" data-fancybox-group="service_item" title="Planetary Spur Gears"><img src="images/service_img3.jpg" alt="Our Services" /><h4 align="center">Planetary Spur Gears</h4></a>
                             <p align="justify">Planetary gears are among the more complicated gear systems. They contain one central spur gear, or "sun gear," surrounded by three or more "planet gears;" the exterior gears interlock with the inward-facing teeth of a larger internal gear, increasing the output speed of the large outer gear through rotational torque applied to the internal sun gear.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
@@ -351,16 +373,16 @@
                     </div>
                      <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img5.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img5.jpg" data-fancybox-group="service_item" title="Differential Spur Gears"><h4 align="center">Differential Spur Gears</h4></a>
+                            
+                            <a class="fancybox" href="images/service_img5.jpg" data-fancybox-group="service_item" title="Differential Spur Gears"><img src="images/service_img5.jpg" alt="Our Services" /><h4 align="center">Differential Spur Gears</h4></a>
                             <p align="justify">Differential spur gears feature two shafts that can be independently adjusted in angle and direction. Differential spur gears are designed to mesh and work with one another at a controlled speed in order to produce a desired amount of torque.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
                      <div class="col-md-4">
                         <div class="service_item">
-                            <img src="images/service_img6.jpg" alt="Our Services" />
-                            <a class="fancybox" href="images/service_img6.jpg" data-fancybox-group="service_item" title="Spline Gears"><h4 align="center">Spline Gears</h4></a>
+                        
+                            <a class="fancybox" href="images/service_img6.jpg" data-fancybox-group="service_item" title="Spline Gears"><img src="images/service_img6.jpg" alt="Our Services" /><h4 align="center">Spline Gears</h4></a>
                             <p align="justify">Spline gears are either cylindrical or rod-shaped with straight teeth that allow them to transmit motion laterally by fitting inside internal devices or gears.</p>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
@@ -370,14 +392,37 @@
 
                 <br>
 
-                <h3>Manufacturing Materials</h3>
-                <p>Our company can manufacture gears in any type of material including Steel, Stainless Steel, Cast Iron, Brass or Bronze, Aluminum, and many more.</p>
+                <h3 align="center">General Product Specifications</h3>
+                <br>
 
-                <p>Outside Diameter : Min: 10 mmMax: 500 mm  </p>
-                <p>Metric Gear Size : Min: 0.3Max: 8.0 </p>     
-                <p>Face Width : Max: 130 mm </p>
-                <p>Pressure Angle : ANY (Depending on Requirement) </p>
-                <p>Manufacturing Material : Steel, Stainless Steel, Cast Iron, Brass or Bronze, Aluminum and many more </p> 
+                <table style="width:100%" id = "tbl">
+  					<!--<tr>
+    					<th>Firstname</th>
+    					<th>Lastname</th>
+    					<th>Age</th>
+  					</tr> -->
+  					<tr>
+    					<td>Outside Diameter</td>
+    					<td>Min: 10 mm  &  Max: 500 mm</td>
+  					</tr>
+  					<tr>
+    					<td>Metric Gear Size</td>
+					    <td>Min: 0.3  &  Max: 8.0</td>
+  					</tr>
+  					<tr>
+    					<td>Face Width (Length)</td>
+					    <td>Max: 130 mm</td>
+  					</tr>
+  					 <tr>
+    					<td>Pressure Angle</td>
+					    <td>ANY (Depending on Customer's Requirements)</td>
+  					</tr>
+  					<tr>
+  					    <td>Manufacturing Material</td>
+					    <td>Steel, Stainless Steel, Cast Iron, Brass or Bronze, Aluminum and many more based on customer’s requirements</td>
+  					</tr>
+				</table>
+				<br>
 
             </div>
 
@@ -391,9 +436,9 @@
 
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
-                    <button class="button" data-filter=".buildings">Gears</button>
+                    <button class="button" data-filter=".buildings">Spur Gears</button>
                     <button class="button" data-filter=".interior">Racks & Pinions</button>
-                    <button class="button" data-filter=".isolation">Gear Sprockets</button>
+                    <button class="button" data-filter=".isolation">Planetary Spur Gears</button>
                     <button class="button" data-filter=".plumbing">Machines</button>
                 </div>
                 <!-- Portfolio grid -->		
@@ -646,6 +691,7 @@
                                 <li><a href="https://www.google.com/maps/place/23%C2%B001'29.9%22N+72%C2%B038'24.9%22E/@23.0255991,72.6343342,16.18z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d23.0249779!4d72.6402543"><span class="fa fa-map-marker"></span>11, Narayan Estate, Opp. Shreeram Estate, In CMC Lane, Anup Eng. Lane, Nr. Soni's Chawl, Odhav, Ahmedabad - 382415</a></li>
                                 <li><a href="mailto:contact@shreegayatrienterprise.in"><span class="fa fa-envelope"></span>contact@shreegayatrienterprise.in</a></li>
                                 <li><span class="fa fa-mobile"></span>+91-94263-72726, +91-93779-43570</br></li>
+                                <li>Contact Person: Dilip Patel</li>
                             </ul>
                         </div>
                     </div>
