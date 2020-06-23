@@ -157,10 +157,11 @@
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
-                            <li><a href="#">Home</a></li>                    
+                            <!--<li><a href="#">Home</a></li> -->                    
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services & Products</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="https://drive.google.com/file/d/1bRRuvyzpGmJA6qydT2124xGZVfhPEx_P/view?usp=sharing">Product Catalog</a></li>
                             <li><a href="#contact_form">Contact Us</a></li>
                         </ul>
                     </div>
@@ -344,6 +345,7 @@
                         
                             <a class="fancybox" href="images/service_img1.jpg"data-fancybox-group="service_item" title="Spur Gears"><img src="images/service_img1.jpg" alt="Our Services"/><h4 align="center">Spur Gears</h4></a>
                             <p align="justify">Spur gears operate on parallel axes; the axes of spur gears are parallel when they are placed next to each other. When two gears designed to interlock with each other are positioned together, one gear turns and transfers torque to the next gear as a result. </p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -352,6 +354,7 @@
                             
                             <a class="fancybox" href="images/service_img2.jpeg" data-fancybox-group="service_item" title="Racks & Pinions"><img src="images/service_img2.jpeg" alt="Our Services"/><h4 align="center">Racks & Pinions</h4></a>
                             <p align="justify">Rack and pinion gears feature a rack meshed with a pinion. A rack is a toothed bar or rod with an infinite radius of curvature. When meshed with a pinion, as the pinion turns, the rack moves in a straight line and converts torque to a linear force.</p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -360,6 +363,7 @@
                             
                             <a class="fancybox" href="images/service_img3.jpg" data-fancybox-group="service_item" title="Planetary Spur Gears"><img src="images/service_img3.jpg" alt="Our Services" /><h4 align="center">Planetary Spur Gears</h4></a>
                             <p align="justify">Planetary gears are among the more complicated gear systems. They contain one central spur gear, or "sun gear," surrounded by three or more "planet gears;" the exterior gears interlock with the inward-facing teeth of a larger internal gear, increasing the output speed of the large outer gear through rotational torque applied to the internal sun gear.</p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -368,6 +372,7 @@
                             <a class="fancybox" href="images/service_img4.jpg" data-fancybox-group="service_item" title="Gear Sprockets"><img src="images/service_img4.jpg" alt="Our Services" />
                             <h4 align="center">Gear Sprockets</h4></a>
                             <p align="justify">Sprockets are profiled wheels with teeth that mesh with a perforated material to create a reliable drive system. They are known for being a dependable drive system for continuous drive applications providing the maximum absorption of shock and minimum torque load.</p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -376,6 +381,7 @@
                             
                             <a class="fancybox" href="images/service_img5.jpg" data-fancybox-group="service_item" title="Differential Spur Gears"><img src="images/service_img5.jpg" alt="Our Services" /><h4 align="center">Differential Spur Gears</h4></a>
                             <p align="justify">Differential spur gears feature two shafts that can be independently adjusted in angle and direction. Differential spur gears are designed to mesh and work with one another at a controlled speed in order to produce a desired amount of torque.</p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -384,6 +390,7 @@
                         
                             <a class="fancybox" href="images/service_img6.jpg" data-fancybox-group="service_item" title="Spline Gears"><img src="images/service_img6.jpg" alt="Our Services" /><h4 align="center">Spline Gears</h4></a>
                             <p align="justify">Spline gears are either cylindrical or rod-shaped with straight teeth that allow them to transmit motion laterally by fitting inside internal devices or gears.</p>
+                            <br>
                             <!-- <a href="#services" class="btn know_btn">know more</a> -->
                         </div>
                     </div>
@@ -423,6 +430,7 @@
   					</tr>
 				</table>
 				<br>
+				<br>
 
             </div>
 
@@ -435,91 +443,261 @@
                 <p>Improving product quality is one of the most important things for achieving long term sales growth and profitability. Although increasing the quality of products is not an easy task, it rewards businesses with increased revenue and reduced costs. Shree Gayatri Enterprise ensures the quality of its products with competitive prices and delivers them on time.</p>
 
                 <div id="filters">
-                    <button class="button is-checked" data-filter="*">Show All</button>
-                    <button class="button" data-filter=".buildings">Spur Gears</button>
-                    <button class="button" data-filter=".interior">Racks & Pinions</button>
-                    <button class="button" data-filter=".isolation">Planetary Spur Gears</button>
-                    <button class="button" data-filter=".plumbing">Machines</button>
+                    <button id = "mybutton" class="button is-checked" data-filter=".spur_gears">Spur Gears</button>
+                    <button class="button" data-filter=".racks_pinions">Racks & Pinions</button>
+                    <button class="button" data-filter=".gear_sprockets">Gear Sprockets</button>
+                    <button class="button" data-filter=".spline_gears">Spline Gears</button>
+                    <button class="button" data-filter=".our_machines">Machines</button>
                 </div>
                 <!-- Portfolio grid -->		
                 <div class="grid">
                     <div class="grid-sizer"></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 buildings interior">
-                        <img alt="" src="images/highligh_img.jpg" >
+
+                    <div class="grid-item grid-item--width2 grid-item--height2 spur_gears">
+                        <img alt="" src="images/p_spur_gears1.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/highligh_img.jpg" data-fancybox-group="gallery" title="acutator"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_spur_gears1.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears2.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears2.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears3.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears3.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears4.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears4.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears5.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears5.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears6.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears6.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears7.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears7.jpg" data-fancybox-group="gallery" title="Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears8.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears8.jpg" data-fancybox-group="gallery" title="Planetary Spur Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spur_gears">
+                        <img alt="" src="images/p_spur_gears9.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spur_gears9.jpg" data-fancybox-group="gallery" title="Differential Spur Gear"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
 
-                    <div class="grid-item buildings interior isolation">
-                        <img alt="" src="images/portfolio1.jpg" >
+
+                    <div class="grid-item grid-item--width2 grid-item--height2 racks_pinions">
+                        <img alt="" src="images/p_racks_pinions1.jpeg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio1.jpg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_racks_pinions1.jpeg" data-fancybox-group="gallery" title="Rack & Pinion"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions2.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions2.jpg" data-fancybox-group="gallery" title="Pinions"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions3.jpeg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions3.jpeg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions4.jpeg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions4.jpeg" data-fancybox-group="gallery" title="Racks & Pinions"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions5.jpeg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions5.jpeg" data-fancybox-group="gallery" title="Racks & Pinions"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions6.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions6.jpg" data-fancybox-group="gallery" title="Actustor Parts"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions7.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions7.jpg" data-fancybox-group="gallery" title="Rack & Pinion"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions8.png" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions8.png" data-fancybox-group="gallery" title="Rack & Pinion"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>   
+                    </div>
+                    <div class="grid-item racks_pinions">
+                        <img alt="" src="images/p_racks_pinions9.jpeg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_racks_pinions9.jpeg" data-fancybox-group="gallery" title="Pinions"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>   
                     </div>
 
-                    <div class="grid-item interior isolation">
-                        <img alt="" src="images/portfolio2.jpg" >
+
+                    <div class="grid-item grid-item--width2 grid-item--height2 gear_sprockets">
+                        <img alt="" src="images/p_gear_sprockets1.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio2.jpg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_gear_sprockets1.jpg" data-fancybox-group="gallery" title="Gear Sprocket"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item gear_sprockets">
+                        <img alt="" src="images/p_gear_sprockets2.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_gear_sprockets2.jpg" data-fancybox-group="gallery" title="Sprocket Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item gear_sprockets">
+                        <img alt="" src="images/p_gear_sprockets3.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_gear_sprockets3.jpg" data-fancybox-group="gallery" title="Sprocket Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item gear_sprockets">
+                        <img alt="" src="images/p_gear_sprockets4.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_gear_sprockets4.jpg" data-fancybox-group="gallery" title="Sprocket Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item gear_sprockets">
+                        <img alt="" src="images/p_gear_sprockets5.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_gear_sprockets5.jpg" data-fancybox-group="gallery" title="Sprocket Gear"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
 
-                    <div class="grid-item isolation buildings">
-                        <img alt="" src="images/portfolio3.jpg" >
+
+                    <div class="grid-item grid-item--width2 grid-item--height2 spline_gears">
+                        <img alt="" src="images/p_spline_gears1.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio3.jpg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_spline_gears1.jpg" data-fancybox-group="gallery" title="Spline Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spline_gears">
+                        <img alt="" src="images/p_spline_gears2.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spline_gears2.jpg" data-fancybox-group="gallery" title="Spline Gear (Shaft)"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spline_gears">
+                        <img alt="" src="images/p_spline_gears3.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spline_gears3.jpg" data-fancybox-group="gallery" title="Spline Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spline_gears">
+                        <img alt="" src="images/p_spline_gears4.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spline_gears4.jpg" data-fancybox-group="gallery" title="Spline Gear"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>
+                    <div class="grid-item spline_gears">
+                        <img alt="" src="images/p_spline_gears5.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_spline_gears5.jpg" data-fancybox-group="gallery" title="Spline Gear"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
 
-                    <div class="grid-item plumbing">
-                        <img alt="" src="images/portfolio4.jpg">
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio4.jpg" data-fancybox-group="gallery" title="Machines">
-                            <span class="fa fa-search"></span></a>
-                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
-                        </div>  
-                        
-                    </div>
 
-                    <div class="grid-item plumbing">
-                        <img alt="" src="images/portfolio5.jpg" >
+                    <div class="grid-item grid-item--width2 grid-item--height2 our_machines">
+                        <img alt="" src="images/p_machines1.jpeg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio5.jpg" data-fancybox-group="gallery" title="Machines"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_machines1.jpeg" data-fancybox-group="gallery" title="Machines"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
-
-                    <div class="grid-item plumbing">
-                        <img alt="" src="images/portfolio6.jpg" >
+                    <div class="grid-item our_machines">
+                        <img alt="" src="images/p_machines2.jpeg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio6.jpg" data-fancybox-group="gallery" title="Machines"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_machines2.jpeg" data-fancybox-group="gallery" title="Machines"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
-
-                    <div class="grid-item isolation buildings">
-                        <img alt="" src="images/portfolio7.jpg" >
+                    <div class="grid-item our_machines">
+                        <img alt="" src="images/p_machines3.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio7.jpg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_machines3.jpg" data-fancybox-group="gallery" title="Machine"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
-                    <div class="grid-item isolation buildings">
-                        <img alt="" src="images/portfolio8.jpg" >
+                    <div class="grid-item our_machines">
+                        <img alt="" src="images/p_machines4.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/portfolio8.jpg" data-fancybox-group="gallery" title="Pinion"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="images/p_machines4.jpg" data-fancybox-group="gallery" title="Machine"><span class="fa fa-search"></span></a>
                             <!-- <a href="#"><span class="fa fa-link"></span></a> -->
                         </div>  
                     </div>
+                    <div class="grid-item our_machines">
+                        <img alt="" src="images/p_machines5.jpg" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="images/p_machines5.jpg" data-fancybox-group="gallery" title="Machine"><span class="fa fa-search"></span></a>
+                            <!-- <a href="#"><span class="fa fa-link"></span></a> -->
+                        </div>  
+                    </div>                                     
+                                                            
 
                 </div><!-- Portfolio grid end -->
             </div>
         </section><!-- Portfolio end -->
+
 
         <!-- Testimonial -->
         <section id="testimonial">
@@ -699,7 +877,7 @@
                     <div class="col-lg-4 col-sm-7">
                         <div class="footer_item">
                             <h4 align="center">Find Us On Map</h4>
-                            <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=23%C2%B001'29.9%22N%2072%C2%B038'24.9%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style></div>
+                            <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=23%C2%B001'29.9%22N%2072%C2%B038'24.9%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:300px}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px}</style></div>
                     </div>
                 </div>
             </div><!-- Footer top end -->
@@ -733,5 +911,9 @@
         <script src="js/jquery.scrollUp.min.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script> document.addEventListener("DOMContentLoaded", function(event) {document.getElementById("mybutton").click();}); </script>
+    
+
     </body>	
 </html>	
